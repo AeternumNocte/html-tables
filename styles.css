@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.invoiceBody {
+    width: 60%;
+}
+
+th,
+td {
+    text-align: left;
+
+}
+
+
+.invoiceHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.invoiceHeaders {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.invoiceDates {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.companyInfo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+
+}
+
+.customerInfo {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.customerInfotable {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.productInfo {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.productInfoT {
+    text-align: center;
+    width: 100%;
+}
+
+.space {
+    padding-top: 100px;
+
+}
