@@ -1,6 +1,7 @@
 body {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .invoiceBody {
@@ -72,4 +73,9 @@ td {
 .space {
     padding-top: 100px;
 
+}
+.footer {
+    margin-top: 2%;
+    margin-left: 70%;
+    color: black;
 }
